@@ -21,6 +21,7 @@ def ping(bot, update):
     bot.sendMessage(chat_id=update.message.chat_id,
                     text="Pong %s" % emojize(":thumbsup:", use_aliases=True))
 
+
 def echo(bot, update):
     bot.sendMessage(chat_id=update.message.chat_id, text=update.message.text)
 
